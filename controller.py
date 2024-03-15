@@ -43,9 +43,6 @@ class ControllerCadastro():
         else:
             return "Formato de e-mail inválido"
         
-                    
-                
-                
     
     @classmethod
     def alterar_senha(cls):
