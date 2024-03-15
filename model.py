@@ -25,5 +25,4 @@ class Users(Base):
 
 if __name__ == '__main__':
     print(session.query(Users).all())
-    
     Base.metadata.create_all(engine)
