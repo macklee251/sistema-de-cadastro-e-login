@@ -1,0 +1,11 @@
+Sistema de login
+-> Cadastro
+- nome
+- email
+- senha
+
+-> login
+- email
+- senha
+
+Email não pode se repetir, a senha tem que ter criptografia
