@@ -52,6 +52,7 @@ class ControllerCadastro():
     def excluir():
         pass
     
-print(ControllerCadastro.alterar_email(old_email="abc@hotmail.cos", senha="paula", new_email="abc@hotmail.coks"))
+if __name__ == '__main__':
+    print(ControllerCadastro.alterar_email(old_email="abc@hotmail.cos", senha="paula", new_email="abc@hotmail.coks"))
 
-Base.metadata.create_all(engine)
+    Base.metadata.create_all(engine)
