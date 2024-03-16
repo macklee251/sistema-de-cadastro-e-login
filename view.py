@@ -4,6 +4,7 @@ import flet as ft
 def main(page: ft.Page):
     page.title = "Keyboard Pro"
     page.spacing = 30 
+    
     page.theme_mode="light"
     page.vertical_alignment = "center"
     page.horizontal_alignment = "center"
@@ -18,9 +19,9 @@ def main(page: ft.Page):
             button_submit.disabled=True
         page.update()
 
-    nome = ft.TextField(label="nome", text_align=ft.TextAlign.LEFT, width=400)
-    email = ft.TextField(label="email", text_align=ft.TextAlign.LEFT, width=400)
-    senha = ft.TextField(label="senha", text_align=ft.TextAlign.LEFT, width=400, password=True)
+    nome = ft.TextField(label="nome", text_align=ft.TextAlign.LEFT, width=300)
+    email = ft.TextField(label="email", text_align=ft.TextAlign.LEFT, width=300)
+    senha = ft.TextField(label="senha", text_align=ft.TextAlign.LEFT, width=300, password=True)
     button_submit = ft.ElevatedButton(text='Sign up', width=200, disabled=True, on_click=cadastrar)
     
     nome.on_change=validate
